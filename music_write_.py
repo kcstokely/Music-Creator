@@ -139,22 +139,6 @@ def w_file_head(fp, ppqn):
 ############################################################################################################################################
 
 
-if __name__ == '__main__':
-    
-    with open('t_.mid', 'wb') as fp:
-        
-        pos = w_file_head(fp, 192)
-        
-        total = w_track_head(fp, 4)
-        
-        total += w_note_on(fp, 0, 1, 60, 127)
-
-        total += w_note_off(fp, 192*4, 1, 60, 127)
-
-        total += w_track_end(fp)
-        
-        w_track_fix(fp, pos, total)
-
 
 
 
