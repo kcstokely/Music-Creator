@@ -96,7 +96,7 @@ def w_track_head(fp, bpm):
     fp.write(bytearray([24]))  # number of clocks in a metronome click (there are 24 clocks in a quarter note)
     fp.write(bytearray([8]))   # number of clocks in a 32nd note (8 makes sense, but you can fuck with space-time here)
 
-    return 15;
+    return 15
 
 ############################################################################################################################################
 
