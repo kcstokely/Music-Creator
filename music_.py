@@ -212,8 +212,6 @@ if __name__ == '__main__':
             
         if on[b]:
             
-            print 'yep'
-            
             on[b]  = 0
             total += mid.w_note_off(fp, t_now-t_prev, 1, pitch[b], velocity[b])
             t_prev = t_now
