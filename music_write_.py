@@ -2,6 +2,8 @@
 
 import math
 
+# converts an integer into a variable-length-quantity
+
 def get_bytes(delta):
     
     if delta == 0:
