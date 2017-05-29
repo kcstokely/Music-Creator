@@ -2,7 +2,7 @@
 
 Creates a midi file, randomly generated according to an energy model.
 
-You can read a tiny bit about what that means in the comments.
+You can read a tiny bit about what that means in the code comments.
 
 There are a few well-named parameters that can be played with.
 
